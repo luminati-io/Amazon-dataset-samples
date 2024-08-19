@@ -1,35 +1,38 @@
 # Amazon-dataset-samples
 
-<h2>A sample dataset of 1001 Amazon companies reviews</h2>
+<h2>A sample dataset of 1001 Amazon products</h2>
 
-![Glasdoor dataset header](https://github.com/luminati-io/Amazon-dataset-samples/blob/main/amazon-datasets.PNG)
+![Amazon dataset header](https://github.com/luminati-io/Amazon-dataset-samples/blob/main/amazon-datasets.PNG)
 
-A Amazon dataset sample of over 1000 companies reviews. Dataset was extracted using the <b>Bright Data API</b>.
+A Amazon dataset sample of over 1000 products. Dataset was extracted using the <b>Bright Data API</b>.
 
 <h2>Data points included in this free dataset:</h2>
 
-* ```overview_id```: Unique identifier for the company overview
-* ```review_id```: Unique identifier for each review
-* ```review_url```: Link to the specific review on Amazon
-* ```rating_date```: Date when the review was submitted
-* ```company_name```: Name of the reviewed company
-* ```review_pros```: Positive aspects mentioned in the review
-* ```review_cons```: Negative aspects mentioned in the review
-* ```rating_overall```: Overall rating given by the reviewer
-* ```summary```: Summary overview of the review
-* ```rating_work_life```: Rating for work-life balance
-* ```rating_compensation_benefits```: Rating for compensation and benefits
-* ```rating_culture_values```: Rating for company culture and values
-* ```flags_business_outlook```: Flags related to business outlook
-* ```employee_type```: Status of employment (e.g., former employee, current employee)
-* ```flags_recommend_frend```: Flags related to recommending the company
-* ```rating_senior_leadership```: Rating for senior leadership
-* ```flags_ceo_approval```: Flags related to CEO approval
+* ```title```: Product title
+* ```brand```: Product brand
+* ```description```: A brief description of the product
+* ```currency```: Currency of the product
+* ```availability```: Product availability
+* ```reviews_count```: Number of reviews
+* ```categories```: Product categories
+* ```asin```: Unique identifier for each product
+* ```buybox_seller```: Seller in the buy box
+* ```root_bs_rank```: Best sellers rank in the general category
+* ```images_count```: Number of images
+* ```url```: URL that links directly to the product
+* ```video_count```: Number of videos
+* ```image_url```: URL that links directly to the product image
+* ```rating```: Product rating
+* ```date_first_available```: Date when the product first became available
+* ```manufacturer```: Manufacturer of the product
+* ```plus_content```: Indicates the presence of additional content
+* ```final_price```: Final price of the product
+* ```buybox_prices```: Product price details
 
 And a lot more.
 
-This is a sample subset which is derived from the "Amazon Companies Reviews (public data)"
-dataset which includes more than <b>21,860,000 companies</b>.
+This is a sample subset which is derived from the "Amazon Products (public data)"
+dataset which includes more than <b>269,400,000 products</b>.
 
 Available dataset file formats: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
 
@@ -39,28 +42,37 @@ Update frequency: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b
 
 Data enrichment available as an addition to the data points extracted: <b>Based on request.</b>
 
-<b>[Get the full Amazon company reviews dataset](https://brightdata.com/products/datasets/amazon)</b>.
+<b>[Get the full Amazon products dataset](https://brightdata.com/products/datasets/amazon)</b>.
 
 <h2>Additional Amazon datasets available:</h2>
 
-*   Amazon companies overview information
-*   Amazon full job listings information
+* Amazon.es - products
+* Amazon.de - products
+* Amazon.co.uk - products
+* Amazon.it - products
+* Amazon.fr - products
+* Amazon.in - products
+* Amazon products search
+* Amazon best seller products
+* Amazon Reviews
+* Amazon sellers info
+* Amazon products global dataset
 
 ![Amazon dataset visual](https://github.com/luminati-io/Amazon-dataset-samples/blob/main/amazon-datasets-image.PNG)
 
 <h2>What are the Amazon datasets use cases?</h2>
 
-<h3>1. Competitive analysis</h3>
+<h3>1. Optimize Your Inventory & Pricing Strategy</h3>
 
-Utilize firmographic data to monitor company growth, pinpoint key organizations and professionals, track employee transitions, and enhance competitive intelligence and analysis with greater efficiency.
+Discover top-selling products that customers are searching for and buying. Enhance your entire inventory, pricing, supply chain, and marketing approach for maximum efficiency.
 
-<h3>2. Market trends & growth</h3>
+<h3>2. Gain a Competitive Edge</h3>
 
-Assess company growth and industry trends to support data-driven decisions. Hedge funds, VCs, and financial firms can significantly boost their investment analysis using the Amazon dataset.
+Amazon's top sellers have a winning formula. Study their products, reviews, and promotions to inspire new business ideas or invite them to join your marketplace.
 
-<h3>3. B2B company data</h3>
+<h3>3. Understand Consumer Sentiment & Brand Trends</h3>
 
-Enhance your lead generation and sales intelligence by integrating high-quality company and employee data into your CRM, enriched with a comprehensive Amazon dataset.
+Monitor trending categories and brands in different countries to detect changes in consumer preferences and product popularity.
 
 <h2>Free access to web scraping tools and datasets for academic researchers and NGOs</h2>
 
